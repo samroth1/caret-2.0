@@ -1,0 +1,1 @@
+java -cp caret.jar:conf nxt.Nxt
