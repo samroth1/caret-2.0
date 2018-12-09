@@ -6,9 +6,9 @@ import java.util.TimeZone;
 
 public final class Constants {
 
-	public static int CARET_DIFF_ADJUST_CHANGE_BLOCK = 2700;
+	public static int CARET_DIFF_ADJUST_CHANGE_BLOCK = 1500;
 	
-	public static long CARET_REWARD_RECIPIENT_ASSIGNMENT_START_BLOCK = 6500;
+	public static long CARET_REWARD_RECIPIENT_ASSIGNMENT_START_BLOCK = 1500;
     public static long CARET_REWARD_RECIPIENT_ASSIGNMENT_WAIT_TIME = 4;
     
     public static long CARET_ESCROW_START_BLOCK = 0; // not sure when these were enabled, but they each do an alias lookup every block if greater than the current height
@@ -81,16 +81,16 @@ public final class Constants {
     public static final int REFERENCED_TRANSACTION_FULL_HASH_BLOCK = 0;
     public static final int REFERENCED_TRANSACTION_FULL_HASH_BLOCK_TIMESTAMP = 0;
     public static final int VOTING_SYSTEM_BLOCK = isTestnet ? 0 : Integer.MAX_VALUE;
-    public static final int DIGITAL_GOODS_STORE_BLOCK = 11800;
+    public static final int DIGITAL_GOODS_STORE_BLOCK = 1500;
     public static final int PUBLIC_KEY_ANNOUNCEMENT_BLOCK = Integer.MAX_VALUE;
 
     public static final int MAX_AUTOMATED_TRANSACTION_NAME_LENGTH = 30;
 	public static final int MAX_AUTOMATED_TRANSACTION_DESCRIPTION_LENGTH = 1000 ;
-	protected static final int AUTOMATED_TRANSACTION_BLOCK = 49200;
+	protected static final int AUTOMATED_TRANSACTION_BLOCK = 1500;
 	public static final int AT_BLOCK_PAYLOAD = MAX_PAYLOAD_LENGTH/2;
-	public static final int AT_FIX_BLOCK_2 = 67000;
-	public static final int AT_FIX_BLOCK_3 = 92000;
-    public static final int AT_FIX_BLOCK_4 = 255000;
+	public static final int AT_FIX_BLOCK_2 = 1500;
+	public static final int AT_FIX_BLOCK_3 = 1500;
+    public static final int AT_FIX_BLOCK_4 = 1500;
 
     public static final int[] MIN_VERSION = new int[] {1, 2};
     
@@ -116,7 +116,7 @@ public final class Constants {
                                                         is set as number of seconds before the current time. */
 
     public static final int EC_BLOCK_DISTANCE_LIMIT = 60;
-    public static final int EC_CHANGE_BLOCK_1 = 67000;
+    public static final int EC_CHANGE_BLOCK_1 = 1500;
 	
 
     private Constants() {} // never
